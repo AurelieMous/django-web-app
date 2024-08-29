@@ -1,0 +1,20 @@
+
+<html>
+    <head><title>Merchex</title></head>
+    <body>
+        <p>
+            Mes groupes préférés sont :
+                <ul>
+                    {% for band in bands %}
+                    <li>{{ band.name }}</li>
+                    {% endfor %}
+                </ul>
+            Plus d'informations : 
+                <ul>
+                    {% for listening in listenings %}
+                    <li>{{ listening.title }}</li>
+                    {% endfor %}
+                </ul>
+        </p>
+    </body>
+</html>
