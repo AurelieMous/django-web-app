@@ -1,0 +1,6 @@
+.errorlist { margin-bottom: -10px }
+
+header {
+    display: flex;
+    gap: 10px;
+    }

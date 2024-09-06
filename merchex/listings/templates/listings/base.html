@@ -5,7 +5,7 @@
         <title>Merchex</title></head>
         <link rel="stylesheet" href="{% static 'listings/styles.css' %}" />
     <body>
-
+        <header><a href="{% url 'band-list' %}">Bands</a><a href="{% url 'contact' %}">Contact</a><a href="{% url 'a-propos' %}">A propos</a></header> 
         {% block content %}{% endblock %}
 
     </body>
